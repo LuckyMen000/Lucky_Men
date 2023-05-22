@@ -171,18 +171,13 @@ h1,h2,h3,h4,p{color: #FFF;}
     align-items: center;
     justify-content: center;
 }
-@media(min-width: 390px){
+@media (max-width:1591px){
     .glowing-circle{
-        margin-left: -0%;
-    }
-}
-@media(min-width: 1200px){
-    .glowing-circle{
-        margin-left: -0%;
+        margin-left: 50%;
     }
 }
 @media(min-width: 390px){
     .glowing-circle{
-        margin-left: -0%;
+        margin-left: 40%;
     }
 }
