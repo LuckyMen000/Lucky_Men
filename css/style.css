@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{font-family:'Inter';}
+h2,h3,h4,h5,h6,p{font-family:'Poppins'; font-weight:500;}
+a{text-decoration:none;}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.extended-avatar {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+}
+.extended-title{
+    font-size: 25px;
+    margin-top: 5%;
+}
+.card-body{
+    padding: 20px;
+}
+.circle-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 10px; 
+}
+.circle i{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50%;
+    color: #000000;
+}
+#github:hover{
+    transition: 0.2s;
+    color: #0f060e;
+}
+#discord:hover{
+    transition: 0.2s;
+    color: #830176;
+}
+#telegram:hover{
+    transition: 0.2s;
+    color: #41a0fa;
+}
+#vk:hover{
+    transition: 0.2s;
+    color: #5041fa;
+}
+.group-skills img{
+    width: 56px;
+    height: 56px;
+}
+.database-skills img{
+    width: 56px;
+    height: 56px;
+}
+.frameworks img{
+    width: 46px;
+    height: 46px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.card-body{
+    width: 100%;
+    margin: 2%;
+}
+@media screen and (max-width: 767px) {
+    .card-body {
+      
+    }
+  }
